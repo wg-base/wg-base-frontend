@@ -17,5 +17,11 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Todo List
+-[X] 集成iview
+-[X] 登录页面
+-[ ] 根据路由生成菜单，sider收起，菜单跳转路径
+-[ ] header(用户头像，下拉菜单，全屏)
+-[ ] header下方菜单记录
+-[ ] table
+-[ ] eCharts
