@@ -4,7 +4,7 @@
       <Sider ref="side1" hide-trigger collapsible :collapsed-width="78" v-model="isCollapsed">
         <Menu :active-name="0" theme="dark" width="auto" :class="menuitemClasses">
           <div v-for="(item,index) in menuData[1].children" :key="index" :index="index">
-            <MenuItem name="1-1" v-if="item.children.length == 0" @click.native="() => $router.push({ path: item.path, query: $route.query })">
+            <MenuItem :name="index" v-if="item.children.length == 0" @click.native="() => $router.push({ path: item.path, query: $route.query })">
               <Icon :type="item.meta.icon"></Icon>
               <span>{{item.meta.title}}</span>
             </MenuItem>
@@ -63,7 +63,7 @@ export default {
     },
     methods: {
         collapsedSider () {
-            this.$refs.side1.toggleCollapse();
+            /*this.$refs.side1.toggleCollapse();*/
         },
     }
 }

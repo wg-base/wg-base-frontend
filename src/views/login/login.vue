@@ -24,7 +24,7 @@ export default {
   methods: {
     handleSubmit ({ userName, password }) {
         console.log(userName,password)
-        this.$router.push('/home')
+        this.$router.push('/main/home')
     }
   }
 }
