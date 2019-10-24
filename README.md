@@ -18,8 +18,8 @@ npm run build
 npm run build --report
 ```
 ## Todo List
--[X] 集成iview
--[X] 登录页面
+-[ X ] 集成iview
+-[ X ] 登录页面
 -[ ] 根据路由生成菜单，sider收起，菜单跳转路径
 -[ ] header(用户头像，下拉菜单，全屏)
 -[ ] header下方菜单记录
